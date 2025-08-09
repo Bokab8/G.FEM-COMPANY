@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove the default outline and background on focus/active for the navbar toggler */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.animate-text-1 {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInDown 1s ease-in-out;
+}
+.animate-text-2 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 1s ease-in-out;
+}
+.card-img-top {
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+      font-size: 1.8rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+
+
