@@ -13,19 +13,21 @@ html {
     font-size: 2rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    animation: fadeInDown 1s ease-in-out;
+    animation: fadeInDown 0.5s ease-in-out;
 }
 .animate-text-2 {
     font-size: 1.5rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    animation: fadeInUp 1s ease-in-out;
+    animation: fadeInUp 0.5s ease-in-out;
 }
+/*
 .card-img-top {
   height: 250px; 
   object-fit: cover; 
   border-radius: 0.5rem;
 }
+*/
 
 
 @media (max-width: 768px) {
