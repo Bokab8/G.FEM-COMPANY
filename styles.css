@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Remove the default outline and background on focus/active for the navbar toggler */
+/* removing hover effect for hamburger menu */
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: none;
