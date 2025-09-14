@@ -1,20 +1,52 @@
-html {
-  scroll-behavior: smooth;
+
+#hero {
+  background-image: url('./asset/img/pop-2.webp');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
- #hero{
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
 
- "background-image: url('./asset/img/pop-2.webp'); 
-                min-height: 100vh; 
-                background-size: cover; 
-                background-position: center; 
-                display: flex; 
-                align-items: center; 
-                justify-content: center; 
-                text-align: center;">
+/* text animations */
+.animate-text-1 {
+  animation: fadeInDown 1.5s ease;
+}
+
+.animate-text-2 {
+  animation: fadeInUp 2s ease;
+}
+
+/* Simple fade-in animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* removing hover effect for hamburger menu */
 .navbar-toggler:focus,
