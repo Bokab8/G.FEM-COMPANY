@@ -61,3 +61,7 @@
   .animate-text-1 { font-size: 1.8rem; }
   .animate-text-2 { font-size: 1rem; }
 }
+
+iframe {
+  border-radius: 10px;
+}
